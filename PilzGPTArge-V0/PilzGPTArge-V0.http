@@ -1,0 +1,6 @@
+@PilzGPTArge_V0_HostAddress = http://localhost:5005
+
+GET {{PilzGPTArge_V0_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

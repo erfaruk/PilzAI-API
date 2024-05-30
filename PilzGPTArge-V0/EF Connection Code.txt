@@ -1,0 +1,1 @@
+﻿﻿Scaffold-DbContext -Connection "Server=DESKTOP-BNACLH9;Database=PilzGPT;Trusted_Connection=True;Encrypt=False;" -OutputDir Models/Database Microsoft.EntityFrameworkCore.SqlServer -Force

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PilzGPTArge-V0.props" />
+</Project>

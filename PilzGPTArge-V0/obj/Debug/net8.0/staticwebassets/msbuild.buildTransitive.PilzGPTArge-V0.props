@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\PilzGPTArge-V0.props" />
+</Project>
