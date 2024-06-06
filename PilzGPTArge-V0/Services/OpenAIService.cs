@@ -28,8 +28,6 @@ namespace PilzGPTArge_V0.Services
             };
 
             var jsonContent = JsonSerializer.Serialize(messages, options);
-
-            Console.WriteLine(jsonContent); // Verify the JSON content //Fonksiyona giren mesajı JSON çevirme
             var request = new HttpRequestMessage(HttpMethod.Post, "https://api.openai.com/v1/chat/completions");
             request.Headers.Add("Authorization", $"Bearer {apiKey}");
             var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
@@ -37,8 +35,6 @@ namespace PilzGPTArge_V0.Services
 
             var response = await _client.SendAsync(request);
             response.EnsureSuccessStatusCode();
-
-
             return await response.Content.ReadAsStringAsync();
         }
 
@@ -69,6 +65,19 @@ namespace PilzGPTArge_V0.Services
         {
             var url = $"https://api.openai.com/v1/assistants?{queryString}";
             var httpRequest = new HttpRequestMessage(HttpMethod.Get, url);
+            httpRequest.Headers.Add("Authorization", $"Bearer {apiKey}");
+            httpRequest.Headers.Add("OpenAI-Beta", "assistants=v2");
+
+            var response = await _client.SendAsync(httpRequest);
+            response.EnsureSuccessStatusCode();
+
+            return await response.Content.ReadAsStringAsync();
+        }
+
+        public async Task<string> DeleteAssistantAsync(string assistantId)
+        {
+            var url = $"https://api.openai.com/v1/assistants/{assistantId}";
+            var httpRequest = new HttpRequestMessage(HttpMethod.Delete, url);
             httpRequest.Headers.Add("Authorization", $"Bearer {apiKey}");
             httpRequest.Headers.Add("OpenAI-Beta", "assistants=v2");
 

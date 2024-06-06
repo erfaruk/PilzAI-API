@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PilzGPTArge-V0")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95b2deeda134f8430f3842ea084781c0c72b46c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a854ad1f555f12db53700b42e4d03e635fe2addf")]
 [assembly: System.Reflection.AssemblyProductAttribute("PilzGPTArge-V0")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PilzGPTArge-V0")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

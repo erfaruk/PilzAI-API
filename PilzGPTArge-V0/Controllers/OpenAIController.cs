@@ -56,6 +56,25 @@ public class OpenAIController : ControllerBase
         }
     }
 
+    [HttpDelete("delete-assistant")]
+    public async Task<IActionResult> DeleteAssistant([FromBody] string assistantId)
+    {
+        if (string.IsNullOrEmpty(assistantId))
+        {
+            return BadRequest("Assistant ID is required.");
+        }
+
+        try
+        {
+            var result = await _openAIService.DeleteAssistantAsync(assistantId);
+            return Ok(result);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, ex.Message);
+        }
+    }
+
 
 
 
@@ -73,7 +92,7 @@ public class OpenAIController : ControllerBase
             var messages = okResult.Value as List<GetMessages>; // Dönüş türüne göre uygun türde değişken kullanın.
             if (messages == null)
             {
-                return BadRequest("Invalid message format.");
+                return BadRequest("No such a message");
             }
 
             var requestMessages = new List<RequestMessage>();
