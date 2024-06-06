@@ -7,6 +7,7 @@ using PilzGPTArge_V0.Models.Database;
 using PilzGPTArge_V0.Models;
 using System.Text.Json;
 using PilzGPTArge_V0.Helper;
+using PilzGPTArge_V0.Models.Assistant;
 
 [EnableCors]
 [Route("api/[controller]")]
@@ -19,6 +20,44 @@ public class OpenAIController : ControllerBase
     {
         _openAIService = openAIService;
     }
+
+    [HttpPost("create-assistant")]
+    public async Task<IActionResult> CreateAssistant([FromBody] CreateAssistant request)
+    {
+        if (request == null || string.IsNullOrEmpty(request.Model) || string.IsNullOrEmpty(request.Name))
+        {
+            return BadRequest("Model and Name are required fields.");
+        }
+
+        var result = await _openAIService.CreateAssistantAsync(request);
+        return Ok(result);
+    }
+
+    [HttpPost("list-assistants")]
+    public async Task<IActionResult> ListAssistants([FromBody] ListAssistants request)
+    {
+        if (request == null)
+        {
+            return BadRequest("Request body is required.");
+        }
+
+        try
+        {
+            // Construct the query string from the request body
+            string queryString = $"order={request.Order}&limit={request.Limit}";
+
+            // Call the service method with the constructed query string
+            var result = await _openAIService.ListAssistantsAsync(queryString);
+            return Ok(result);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, ex.Message);
+        }
+    }
+
+
+
 
     [HttpGet("getCompletion")]
     public async Task<IActionResult> GetCompletion(int chatid)

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NG5sxo9rYmlZ5RvgRcBAEfVTFyzRPGE5KI5WI5BtCjgPaAn9IPmIIu0GTGDy+C0CQlrNZmd8Jz3aDTCdQz4I7g==",
+  "dgSpecHash": "JUcvvJ+eLVrrRc9BWbaGMQng8TE9xikhfjEmtf5B/aZCYQingW0PTzedKIxz95cEs16f0rPeVT8K5Sf6Rrq/nA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\source\\repos\\PilzGPTArge-V0\\PilzGPTArge-V0\\PilzGPTArge-V0.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\Documents\\GitHub\\PilzAI-API\\PilzGPTArge-V0\\PilzGPTArge-V0.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Asus\\source\\repos\\PilzGPTArge-V0\\",
+  "WorkspaceRootPath": "C:\\Users\\Asus\\Documents\\GitHub\\PilzAI-API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D8B3D26-260F-4308-BF4C-3C9A72041B24}|PilzGPTArge-V0\\PilzGPTArge-V0.csproj|c:\\users\\asus\\source\\repos\\pilzgptarge-v0\\pilzgptarge-v0\\controllers\\chatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D8B3D26-260F-4308-BF4C-3C9A72041B24}|PilzGPTArge-V0\\PilzGPTArge-V0.csproj|c:\\users\\asus\\documents\\github\\pilzai-api\\pilzgptarge-v0\\services\\openaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D8B3D26-260F-4308-BF4C-3C9A72041B24}|PilzGPTArge-V0\\PilzGPTArge-V0.csproj|solutionrelative:pilzgptarge-v0\\services\\openaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D8B3D26-260F-4308-BF4C-3C9A72041B24}|PilzGPTArge-V0\\PilzGPTArge-V0.csproj|c:\\users\\asus\\documents\\github\\pilzai-api\\pilzgptarge-v0\\controllers\\openaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D8B3D26-260F-4308-BF4C-3C9A72041B24}|PilzGPTArge-V0\\PilzGPTArge-V0.csproj|solutionrelative:pilzgptarge-v0\\controllers\\openaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D8B3D26-260F-4308-BF4C-3C9A72041B24}|PilzGPTArge-V0\\PilzGPTArge-V0.csproj|c:\\users\\asus\\documents\\github\\pilzai-api\\pilzgptarge-v0\\controllers\\chatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D8B3D26-260F-4308-BF4C-3C9A72041B24}|PilzGPTArge-V0\\PilzGPTArge-V0.csproj|solutionrelative:pilzgptarge-v0\\controllers\\chatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D8B3D26-260F-4308-BF4C-3C9A72041B24}|PilzGPTArge-V0\\PilzGPTArge-V0.csproj|c:\\users\\asus\\source\\repos\\pilzgptarge-v0\\pilzgptarge-v0\\controllers\\openaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D8B3D26-260F-4308-BF4C-3C9A72041B24}|PilzGPTArge-V0\\PilzGPTArge-V0.csproj|solutionrelative:pilzgptarge-v0\\controllers\\openaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D8B3D26-260F-4308-BF4C-3C9A72041B24}|PilzGPTArge-V0\\PilzGPTArge-V0.csproj|c:\\users\\asus\\documents\\github\\pilzai-api\\pilzgptarge-v0\\models\\assistant\\listassistants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D8B3D26-260F-4308-BF4C-3C9A72041B24}|PilzGPTArge-V0\\PilzGPTArge-V0.csproj|solutionrelative:pilzgptarge-v0\\models\\assistant\\listassistants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D8B3D26-260F-4308-BF4C-3C9A72041B24}|PilzGPTArge-V0\\PilzGPTArge-V0.csproj|c:\\users\\asus\\documents\\github\\pilzai-api\\pilzgptarge-v0\\models\\assistant\\createassistant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D8B3D26-260F-4308-BF4C-3C9A72041B24}|PilzGPTArge-V0\\PilzGPTArge-V0.csproj|solutionrelative:pilzgptarge-v0\\models\\assistant\\createassistant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListAssistants.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\GitHub\\PilzAI-API\\PilzGPTArge-V0\\Models\\Assistant\\ListAssistants.cs",
+              "RelativeDocumentMoniker": "PilzGPTArge-V0\\Models\\Assistant\\ListAssistants.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\GitHub\\PilzAI-API\\PilzGPTArge-V0\\Models\\Assistant\\ListAssistants.cs*",
+              "RelativeToolTip": "PilzGPTArge-V0\\Models\\Assistant\\ListAssistants.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:41:02.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateAssistant.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\GitHub\\PilzAI-API\\PilzGPTArge-V0\\Models\\Assistant\\CreateAssistant.cs",
+              "RelativeDocumentMoniker": "PilzGPTArge-V0\\Models\\Assistant\\CreateAssistant.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\GitHub\\PilzAI-API\\PilzGPTArge-V0\\Models\\Assistant\\CreateAssistant.cs",
+              "RelativeToolTip": "PilzGPTArge-V0\\Models\\Assistant\\CreateAssistant.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAiwEoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T12:48:38.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OpenAIService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\GitHub\\PilzAI-API\\PilzGPTArge-V0\\Services\\OpenAIService.cs",
+              "RelativeDocumentMoniker": "PilzGPTArge-V0\\Services\\OpenAIService.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\GitHub\\PilzAI-API\\PilzGPTArge-V0\\Services\\OpenAIService.cs*",
+              "RelativeToolTip": "PilzGPTArge-V0\\Services\\OpenAIService.cs*",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAgwEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T11:44:52.814Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "OpenAIController.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\PilzGPTArge-V0\\PilzGPTArge-V0\\Controllers\\OpenAIController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\GitHub\\PilzAI-API\\PilzGPTArge-V0\\Controllers\\OpenAIController.cs",
               "RelativeDocumentMoniker": "PilzGPTArge-V0\\Controllers\\OpenAIController.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\PilzGPTArge-V0\\PilzGPTArge-V0\\Controllers\\OpenAIController.cs",
-              "RelativeToolTip": "PilzGPTArge-V0\\Controllers\\OpenAIController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\GitHub\\PilzAI-API\\PilzGPTArge-V0\\Controllers\\OpenAIController.cs*",
+              "RelativeToolTip": "PilzGPTArge-V0\\Controllers\\OpenAIController.cs*",
+              "ViewState": "AQIAACAAAAAAAAAAAAAYwDEAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T06:04:10.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ChatsController.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\PilzGPTArge-V0\\PilzGPTArge-V0\\Controllers\\ChatsController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Documents\\GitHub\\PilzAI-API\\PilzGPTArge-V0\\Controllers\\ChatsController.cs",
               "RelativeDocumentMoniker": "PilzGPTArge-V0\\Controllers\\ChatsController.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\PilzGPTArge-V0\\PilzGPTArge-V0\\Controllers\\ChatsController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Documents\\GitHub\\PilzAI-API\\PilzGPTArge-V0\\Controllers\\ChatsController.cs",
               "RelativeToolTip": "PilzGPTArge-V0\\Controllers\\ChatsController.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAYwAAAAAAAAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAYwDQAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T06:04:09.858Z",
               "EditorCaption": ""

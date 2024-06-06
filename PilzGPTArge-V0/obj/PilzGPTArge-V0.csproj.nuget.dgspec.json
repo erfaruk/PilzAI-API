@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\source\\repos\\PilzGPTArge-V0\\PilzGPTArge-V0\\PilzGPTArge-V0.csproj": {}
+    "C:\\Users\\Asus\\Documents\\GitHub\\PilzAI-API\\PilzGPTArge-V0\\PilzGPTArge-V0.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\source\\repos\\PilzGPTArge-V0\\PilzGPTArge-V0\\PilzGPTArge-V0.csproj": {
+    "C:\\Users\\Asus\\Documents\\GitHub\\PilzAI-API\\PilzGPTArge-V0\\PilzGPTArge-V0.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\source\\repos\\PilzGPTArge-V0\\PilzGPTArge-V0\\PilzGPTArge-V0.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Documents\\GitHub\\PilzAI-API\\PilzGPTArge-V0\\PilzGPTArge-V0.csproj",
         "projectName": "PilzGPTArge-V0",
-        "projectPath": "C:\\Users\\Asus\\source\\repos\\PilzGPTArge-V0\\PilzGPTArge-V0\\PilzGPTArge-V0.csproj",
+        "projectPath": "C:\\Users\\Asus\\Documents\\GitHub\\PilzAI-API\\PilzGPTArge-V0\\PilzGPTArge-V0.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\source\\repos\\PilzGPTArge-V0\\PilzGPTArge-V0\\obj\\",
+        "outputPath": "C:\\Users\\Asus\\Documents\\GitHub\\PilzAI-API\\PilzGPTArge-V0\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

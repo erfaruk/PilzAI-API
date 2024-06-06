@@ -47,7 +47,7 @@ namespace PilzGPTArge_V0.Controllers
                 var chat = context.Chats.Find(chatId);
                 if (chat != null)
                 {
-                    //var messagess = chat.Messages.ToList();
+                    //var messagess = chat.Messages;
                     var messages = (from m in context.Messages
                                     join r in context.Roles on m.RoleId equals r.Id
                                     where m.ChatId == chatId
